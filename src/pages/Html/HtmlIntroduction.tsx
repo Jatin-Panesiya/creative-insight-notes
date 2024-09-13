@@ -1,4 +1,4 @@
-import { Code, List } from "@mantine/core";
+import { List } from "@mantine/core";
 import Layout from "../../components/Layout";
 import { HtmlSideMenuData } from "../../utils/constants";
 import CodeBlock from "../../components/CodeBlock";
