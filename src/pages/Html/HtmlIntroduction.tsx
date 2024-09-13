@@ -2,8 +2,6 @@ import { List } from "@mantine/core";
 import Layout from "../../components/Layout";
 import { HtmlSideMenuData } from "../../utils/constants";
 import CodeBlock from "../../components/CodeBlock";
-import { Editor } from "@monaco-editor/react";
-import CodeEditor from "../../components/CodeEditor";
 
 const HtmlIntroduction = () => {
   return (
@@ -49,7 +47,6 @@ const HtmlIntroduction = () => {
 </html>
           `}
         </CodeBlock>
-        <CodeEditor />
       </div>
     </Layout>
   );
